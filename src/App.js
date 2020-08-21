@@ -1,9 +1,8 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
 
 class Toggle extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = { isToggleOn: true }
     // this.handleClick = this.handleClick.bind(this)  // 方法一 直接bind绑定this
   }
@@ -26,4 +25,4 @@ class Toggle extends React.Component {
   }
 }
 
-export default Toggle;
+export default Toggle

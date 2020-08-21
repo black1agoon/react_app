@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 
 class Demo10 extends Component {
   constructor() {
-    super();
+    super()
     this.state = {
       opacity: 1
     }
@@ -25,8 +25,8 @@ class Demo10 extends Component {
       <div>
         <p style={{opacity: this.state.opacity}}>我要变啦</p>
       </div>
-    );
+    )
   }
 }
 
-export default Demo10;
+export default Demo10

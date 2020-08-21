@@ -1,5 +1,5 @@
-import React from 'react';
-import {Motion, spring} from 'react-motion';
+import React from 'react'
+import {Motion, spring} from 'react-motion'
 class MotionView extends React.Component {
   render() {
     return (

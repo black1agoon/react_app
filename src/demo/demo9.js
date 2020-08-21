@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 
 class Demo9 extends Component {
   constructor() {
@@ -23,4 +23,4 @@ class Demo9 extends Component {
   }
 }
 
-export default Demo9;
+export default Demo9
