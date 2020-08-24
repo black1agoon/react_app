@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 
 class Demo9 extends Component {
   constructor() {
-    super();
+    super()
     this.state = {
       value: ''
     }
@@ -19,7 +19,7 @@ class Demo9 extends Component {
         <input type="text" onChange={(e) => this.handleChange(e)}/>
         <p>{this.state.value}</p>
       </div>
-    );
+    )
   }
 }
 
