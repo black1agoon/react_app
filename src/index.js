@@ -14,6 +14,8 @@ import Demo9 from './demo/demo9'
 import Demo10 from './demo/demo10'
 import Test10 from './doc-test/test10'
 import Deskmark from './demoproject/Deskmark'
+import Todo from './flux-test/components/Todo'
+import './redux-test/store'
 ReactDOM.render(
   <React.StrictMode>
     {/*<Toggle />*/}
@@ -38,7 +40,8 @@ ReactDOM.render(
     {/*<p>test10---------状态提升----</p>*/}
     {/*<Test10>*/}
     {/*</Test10>*/}
-    <Deskmark />
+    {/*<Deskmark />*/}
+    {/*<Todo />*/}
   </React.StrictMode>,
   document.getElementById('root')
 )
