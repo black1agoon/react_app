@@ -20,7 +20,6 @@ const template = Handlebars.compile(source)
 function displayPage(data) {
   const html = template(data)
   document.body.innerHTML += html
-  console.log(data)
 }
 
 // inital states
@@ -99,7 +98,7 @@ document.body.innerHTML += '<h2>初始化状态</h2>'
 
 displayPage(store.getState())
 
-store.subscribe(() => {
+store.subscribe(() => { // 注册回调, 监听state变化
   displayPage(store.getState())
 })
 
